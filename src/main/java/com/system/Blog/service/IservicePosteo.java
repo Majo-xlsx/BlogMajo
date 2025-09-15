@@ -7,4 +7,6 @@ public interface IservicePosteo {
     List<Posteo> obtenerTodos();
     Posteo obtenerPorId(Long id);
     void guardarPosteo(Posteo posteo);
+    void editarPosteo(Long id, Posteo posteo);
+    void eliminarPosteo(Long id);
 }

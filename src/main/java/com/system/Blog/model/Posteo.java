@@ -1,6 +1,11 @@
 package com.system.Blog.model;
 
+import jakarta.persistence.*;
+
+@Entity
 public class Posteo {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String titulo;
     private String autor;
