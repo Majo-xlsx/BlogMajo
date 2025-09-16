@@ -3,7 +3,7 @@ package com.system.Blog.repository;
 import com.system.Blog.model.Posteo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import java.util.List;
+// import java.util.List;
 
 @Repository
 public interface IposteoRepository extends JpaRepository<Posteo, Long> {
